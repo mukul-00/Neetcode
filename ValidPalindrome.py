@@ -1,3 +1,4 @@
+# always remebere agar koi 2 chiz compair krnu ho toh two pointer use kro
 class Solution:
     def isPalindrome(self, s: str) -> bool:
 
@@ -23,7 +24,7 @@ class Solution:
                 l = l + 1
             while r > l and not self.alphaNum(s[r]):
                 r = r - 1
-                
+
             if s[l].lower() != s[r].lower():
                 return False
             
