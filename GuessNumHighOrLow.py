@@ -3,7 +3,9 @@
 # @return -1 if num is higher than the picked number
 #          1 if num is lower than the picked number
 #          otherwise return 0
-# def guess(num: int) -> int:
+def guess(num: int) -> int:
+    """Placeholder for the platform-provided API; raises locally but will be provided during evaluation."""
+    raise NotImplementedError("guess API is provided by the platform during evaluation")
 
 class Solution:
     def guessNumber(self, n: int) -> int:
